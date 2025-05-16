@@ -629,13 +629,13 @@ const file_api_review_v1_review_proto_rawDesc = "" +
 	"\apicInfo\x18\x04 \x01(\tR\apicInfo\x12\x1c\n" +
 	"\tvideoInfo\x18\x05 \x01(\tR\tvideoInfo\",\n" +
 	"\x10ReplyReviewReply\x12\x18\n" +
-	"\areplyID\x18\x01 \x01(\x03R\areplyID2\xae\x04\n" +
+	"\areplyID\x18\x01 \x01(\x03R\areplyID2\xb3\x04\n" +
 	"\x06Review\x12k\n" +
 	"\fCreateReview\x12\".api.review.v1.CreateReviewRequest\x1a .api.review.v1.CreateReviewReply\"\x15\x82\xd3\xe4\x93\x02\x0f:\x01*\"\n" +
 	"/v1/review\x12T\n" +
 	"\fUpdateReview\x12\".api.review.v1.UpdateReviewRequest\x1a .api.review.v1.UpdateReviewReply\x12T\n" +
-	"\fDeleteReview\x12\".api.review.v1.DeleteReviewRequest\x1a .api.review.v1.DeleteReviewReply\x12K\n" +
-	"\tGetReview\x12\x1f.api.review.v1.GetReviewRequest\x1a\x1d.api.review.v1.GetReviewReply\x12N\n" +
+	"\fDeleteReview\x12\".api.review.v1.DeleteReviewRequest\x1a .api.review.v1.DeleteReviewReply\x12P\n" +
+	"\x0eGetReviewByRID\x12\x1f.api.review.v1.GetReviewRequest\x1a\x1d.api.review.v1.GetReviewReply\x12N\n" +
 	"\n" +
 	"ListReview\x12 .api.review.v1.ListReviewRequest\x1a\x1e.api.review.v1.ListReviewReply\x12n\n" +
 	"\vReplyReview\x12!.api.review.v1.ReplyReviewRequest\x1a\x1f.api.review.v1.ReplyReviewReply\"\x1b\x82\xd3\xe4\x93\x02\x15:\x01*\"\x10/v1/review/replyB2\n" +
@@ -672,13 +672,13 @@ var file_api_review_v1_review_proto_depIdxs = []int32{
 	0,  // 0: api.review.v1.Review.CreateReview:input_type -> api.review.v1.CreateReviewRequest
 	2,  // 1: api.review.v1.Review.UpdateReview:input_type -> api.review.v1.UpdateReviewRequest
 	4,  // 2: api.review.v1.Review.DeleteReview:input_type -> api.review.v1.DeleteReviewRequest
-	6,  // 3: api.review.v1.Review.GetReview:input_type -> api.review.v1.GetReviewRequest
+	6,  // 3: api.review.v1.Review.GetReviewByRID:input_type -> api.review.v1.GetReviewRequest
 	8,  // 4: api.review.v1.Review.ListReview:input_type -> api.review.v1.ListReviewRequest
 	10, // 5: api.review.v1.Review.ReplyReview:input_type -> api.review.v1.ReplyReviewRequest
 	1,  // 6: api.review.v1.Review.CreateReview:output_type -> api.review.v1.CreateReviewReply
 	3,  // 7: api.review.v1.Review.UpdateReview:output_type -> api.review.v1.UpdateReviewReply
 	5,  // 8: api.review.v1.Review.DeleteReview:output_type -> api.review.v1.DeleteReviewReply
-	7,  // 9: api.review.v1.Review.GetReview:output_type -> api.review.v1.GetReviewReply
+	7,  // 9: api.review.v1.Review.GetReviewByRID:output_type -> api.review.v1.GetReviewReply
 	9,  // 10: api.review.v1.Review.ListReview:output_type -> api.review.v1.ListReviewReply
 	11, // 11: api.review.v1.Review.ReplyReview:output_type -> api.review.v1.ReplyReviewReply
 	6,  // [6:12] is the sub-list for method output_type
