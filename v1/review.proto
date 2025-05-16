@@ -19,7 +19,7 @@ service Review {
 	}
 	rpc UpdateReview (UpdateReviewRequest) returns (UpdateReviewReply);
 	rpc DeleteReview (DeleteReviewRequest) returns (DeleteReviewReply);
-	rpc GetReview (GetReviewRequest) returns (GetReviewReply);
+	rpc GetReviewByRID (GetReviewRequest) returns (GetReviewReply);
 	rpc ListReview (ListReviewRequest) returns (ListReviewReply);
 
 	// B端
